@@ -1,0 +1,161 @@
+body {
+  background: rgb(255, 255, 250);
+  font-family: "neosans regular", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+}
+
+#header {
+  background: gray;
+}
+
+.navbar-header.col {
+  padding: 0 !important;
+}	
+
+.nav-link, .navbar-nav, .nav {
+  color: white;
+}
+
+.navbar {		
+  background: gray;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-bottom: 2px solid orange;
+  box-shadow: 0 0 4px rgba(0,0,0,.1);
+}
+
+.nav-link img {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  margin: -8px 0;
+  float: left;
+  margin-right: 10px;
+}
+
+.navbar .navbar-brand {
+  color: whitesmoke;
+  padding-left: 0;
+  font-size: 25px;
+  padding-right: 50px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar .navbar-brand b {
+  font-weight: bold;
+  color: orange;
+}
+
+.navbar ul.nav li a:hover, .navbar ul.nav li a:focus {
+  color: orange !important;
+}
+
+.navbar ul.nav li.active a, .navbar ul.nav li.active a:hover, .navbar ul.nav li.active a:focus {
+  color: orange !important;
+  background: transparent !important;
+}
+
+
+.home {
+margin-top: 3%;
+}
+
+ul,li{
+list-style: none;
+padding-left:0;
+}
+
+li {
+  line-height:300%;
+}
+
+#coder {
+  padding-top: 5%;
+}
+
+.text-main {
+  margin-top: 4%;
+}
+
+#horz-line {
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 75%;
+  border-color: orange;
+}
+
+#vert-line {
+    border-left: thin solid orange;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#rick-pic {
+  margin-left: 0;
+  padding: 0px 0px;
+ object-fit: contain;
+}
+
+.snaps {
+  text-align: center;
+ padding: 5px;
+ border: 1px solid orange; 
+ background-color: rgb(255, 255, 250);
+ margin: auto;
+ margin-top: 2%;
+ border-radius: 5px;
+ margin-bottom: 2%;
+}
+
+h1 {
+  margin: 0;
+  color: #111111;
+  font-weight: bolder;
+  margin-bottom: 0.1em;
+  font-size: 48px;
+  font-size: 4.8rem;
+  line-height: 1.2em;
+  letter-spacing: -0.07em;
+}
+
+p.intro {
+  font-size: 25px;
+  font-size: 2rem;
+  color: #666666;
+  line-height: 1.3em;
+  margin-bottom: 0.7em;
+  clear: both;
+}
+
+p {
+  font-size: 20px;
+  color: #666666;
+  line-height: 1.3em;
+  margin-bottom: 0.7em;
+  clear: both;
+}
+
+#chart {
+  width: 60%;
+  padding: 0;
+  margin: 0;
+  object-fit: contain;
+}
+
+.part {
+ padding: 5%;
+}
+
+#coder {
+background: rgb(240, 240, 235);
+border-top: 3px solid rgb(216, 216, 216)
+}
+
+#snapsbox {
+  text-align: center;
+}
+
+.contact-block {
+
+  color: black;
+  background-color: black;
+}
