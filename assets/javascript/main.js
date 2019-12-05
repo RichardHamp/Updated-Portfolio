@@ -5,22 +5,22 @@ function hideAll() {
 $("#home").show();
 
 //Navigation Buttons
-$("#homeButton").on("click", function () {
+$(".homeButton").on("click", function () {
   hideAll();
   $("#home").show();
 })
 
-$("#aboutButton").on("click", function () {
+$(".aboutButton").on("click", function () {
   hideAll();
   $("#about").show();
 })
 
-$("#portfolioButton").on("click", function () {
+$(".portfolioButton").on("click", function () {
   hideAll();
   $("#portfolio").show();
 })
 
-$("#contactButton").on("click", function () {
+$(".contactButton").on("click", function () {
   hideAll();
   $("#contact").show();
 })

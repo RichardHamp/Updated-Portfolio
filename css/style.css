@@ -154,8 +154,18 @@ border-top: 3px solid rgb(216, 216, 216)
   text-align: center;
 }
 
-.contact-block {
+.centered {
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+}
 
-  color: black;
-  background-color: black;
+.footer {
+  background: rgb(206, 205, 205);
+  border-top: 2px solid orange;
+  box-shadow: 0 0 4px rgba(0,0,0,.1);
+}
+
+.white {
+  color: white;
 }
