@@ -44,8 +44,9 @@ var formData = {
 }
 
 // Listens for Form Submission and Pushes to Firebase
-$('#myForm').submit(function (evt) {
-    evt.preventDefault(); 
-    firebase.initializeApp(firebaseConfig); 
-    firebase.database().ref('/formDataTree').push(formData);
+$('#submit1').submit(function (evt) {
+  $(".homeButton").on("click", function () {
+    hideAll();
+    $("#home").show();
+  })
 })

@@ -1,6 +1,7 @@
 body {
   background: rgb(255, 255, 250);
   font-family: "neosans regular", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+
 }
 
 #header {
@@ -13,6 +14,7 @@ body {
 
 .nav-link, .navbar-nav, .nav {
   color: black;
+  font-size: small;
 }
 
 .navbar {		
@@ -186,8 +188,8 @@ text-align: center;
   background: orange;
   margin: 10px;
   border-radius: 5px;
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   text-align: center;
 }
 
