@@ -24,3 +24,9 @@ $(".contactButton").on("click", function () {
   hideAll();
   $("#contact").show();
 })
+
+$(document).ready(function() {
+    if ($('#newContact').length > 0 ) {
+        contactScript('forcontact');
+    }
+});

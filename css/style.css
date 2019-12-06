@@ -12,7 +12,7 @@ body {
 }	
 
 .nav-link, .navbar-nav, .nav {
-  color: white;
+  color: black;
 }
 
 .navbar {		
@@ -54,7 +54,6 @@ body {
   background: transparent !important;
 }
 
-
 .home {
 margin-top: 3%;
 }
@@ -68,15 +67,11 @@ li {
   line-height:300%;
 }
 
-#coder {
-  padding-top: 5%;
-}
-
 .text-main {
   margin-top: 4%;
 }
 
-#horz-line {
+.horz-line {
   margin-top: 0;
   margin-bottom: 0;
   width: 75%;
@@ -96,7 +91,7 @@ li {
 }
 
 .snaps {
-  text-align: center;
+ text-align: center;
  padding: 5px;
  border: 1px solid orange; 
  background-color: rgb(255, 255, 250);
@@ -151,7 +146,7 @@ border-top: 3px solid rgb(216, 216, 216)
 }
 
 #snapsbox {
-  text-align: center;
+text-align: center;
 }
 
 .centered {
@@ -168,4 +163,73 @@ border-top: 3px solid rgb(216, 216, 216)
 
 .white {
   color: white;
+}
+
+#stickMan {
+  width: 100%;
+}
+
+#contactBlocks {
+  text-align: center;
+}
+
+#myForm {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-input {
+  width: 70%;
+}
+
+.contact-item {
+  background: orange;
+  margin: 10px;
+  border-radius: 5px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+  color: #111111;
+  font-weight: bolder;
+  margin-bottom: 0.1em;
+  font-size: 3rem;
+  line-height: 1.2em;
+  letter-spacing: -0.07em;
+}
+
+.carousel-item {
+  background-color: orange;
+  border: 2px solid black; 
+  border-radius: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.projects {
+  width: 25%;
+  margin: 5px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: orange;
+}
+
+.btn {
+  width: 47%;
+  font-size: medium;
+}
+
+#relative-portfolio {
+  text-align: center;
+  float: left;
+}
+
+.port-link {
+color: black;
+margin-top: 30px;
 }
