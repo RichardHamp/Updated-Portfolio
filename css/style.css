@@ -251,3 +251,28 @@ margin-top: 5%;
 .inputLine {
  margin-top: 4%;
 }
+
+/* footer code */
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
+.footer,
+.push {
+  height: 50px;
+}
+
+.med {
+  font-size: medium;
+}
+
+.small {
+  font-size: small;
+}
