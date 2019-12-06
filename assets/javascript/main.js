@@ -26,27 +26,27 @@ $(".contactButton").on("click", function () {
 })
 
 // Firebase
-  var firebaseConfig = {
-    apiKey: "AIzaSyDhF8ibSiX8yD4jbRKzHHP_A2cMEz9CNz0",
-    authDomain: "portfolio-4b2d5.firebaseapp.com",
-    databaseURL: "https://portfolio-4b2d5.firebaseio.com",
-    projectId: "portfolio-4b2d5",
-    storageBucket: "portfolio-4b2d5.appspot.com",
-    messagingSenderId: "874944777852",
-    appId: "1:874944777852:web:26eb84b50f2a78b34303f9"
-};
+//   var firebaseConfig = {
+//     apiKey: "AIzaSyDhF8ibSiX8yD4jbRKzHHP_A2cMEz9CNz0",
+//     authDomain: "portfolio-4b2d5.firebaseapp.com",
+//     databaseURL: "https://portfolio-4b2d5.firebaseio.com",
+//     projectId: "portfolio-4b2d5",
+//     storageBucket: "portfolio-4b2d5.appspot.com",
+//     messagingSenderId: "874944777852",
+//     appId: "1:874944777852:web:26eb84b50f2a78b34303f9"
+// };
 
 // Initialize Firebase
 
-var formData = {
-    "name": $('#name').val(),
-    "email": $('#email').val(),
-}
+// var formData = {
+//     "name": $('#name').val(),
+//     "email": $('#email').val(),
+// }
 
 // Listens for Form Submission and Pushes to Firebase
-$('#submit1').submit(function (evt) {
-  $(".homeButton").on("click", function () {
-    hideAll();
-    $("#home").show();
-  })
-})
+// $('#submit1').submit(function (evt) {
+//   $(".homeButton").on("click", function () {
+//     hideAll();
+//     $("#home").show();
+//   })
+// })
