@@ -285,37 +285,32 @@
             <div class="row">
                 <div class="col-1"></div>
                 <div class="col-4">
-                    <!-- Image with contact info -->
+                    <!-- Image with Contact info -->
                     <img id="stickMan" src="assets/images/stick.png" alt="stickman presenting">
                 </div>
-                <div class="col-1"></div>
-                <!-- Contact form -->
-                <!-- <form id="myForm" class="col-6" id="contactBlocks">
-                    <br>
-                    <br>
-                    <br>
-                    <label for="name">Alias</label>
-                    <br>
-                    <br>
-                    <label for="name">Name:</label>
-                    <input id="name" type="text" name="name" autofocus required>
-                    <br>
-                    <br>
-                    <label for="email">Interwebs Address</label>
-                    <br>
-                    <br>
-                    <input id="text" label class="contact-input" placeholder="Your email..">
-                    <br>
-                    <br>
-                    <label for="subject">Tell Rick All the Secrets</label>
-                    <br>
-                    <br>
-                    <textarea class="contact-input" name="subject" placeholder="Write something.."
-                        style="height:200px"></textarea>
-                    <br>
-                    <br>
-                    <input type="submit" id="submit1" value="Make it So">
-                </form> -->
+                <div class="col-2"></div>
+                <form id="form" class="col-5">
+                        <div class="input-field col s12">
+                            <label for="" class="inputLine">name thyself! </label>
+                            <br>
+                            <input type="text" class="validate" id="nameInput" placeholder="Stan Lee Cup">
+                        </div>
+                        <br>
+                        <div class="input-field col s12">
+                            <label for="" class="inputLine">address for interwebs goes here</label>
+                            <br>
+                            <input type="email" class="validate" id="emailInput" placeholder="tinkerer@kickin.com">
+                        </div>
+                        <br>
+                        <div class="input-field col s12">
+                            <label for="" class="inputLine">subject</label>
+                            <br>
+                            <textarea id="subjectInput" class="validate" placeholder="What I can do for you goes here." style="height:150px"></textarea>
+                        </div>
+                        <br>
+                        <button type="submit" class="btn btn-secondary btn-sm" id="submit1">Submit</button>
+                        <br>
+                    </form>
             </div>
         </section>
 
@@ -345,6 +340,26 @@
     </footer>
 
 </body>
+
+
+
+
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-database.js"></script>
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyDhF8ibSiX8yD4jbRKzHHP_A2cMEz9CNz0",
+    authDomain: "portfolio-4b2d5.firebaseapp.com",
+    databaseURL: "https://portfolio-4b2d5.firebaseio.com",
+    projectId: "portfolio-4b2d5",
+    storageBucket: "portfolio-4b2d5.appspot.com",
+    messagingSenderId: "874944777852",
+    appId: "1:874944777852:web:26eb84b50f2a78b34303f9"
+};
+    firebase.initializeApp(firebaseConfig);
+    var database = firebase.database();
+</script>
 
 <!-- Javascript Scripts -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
