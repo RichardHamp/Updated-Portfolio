@@ -8,7 +8,7 @@ I very much like the way this portfolio is coming together. I will say that it w
 The primary challenges I faced with this dealt with a Contact Form I want to implement with Firebase. Although I believe I was closing in on the solution, I needed to comment out the code in order to turn it in for assignment. I will get back to it hopefully next week and implement that as well as some animations and such.
 
 # Demo
-Here is the link to the webpage: https://fozzie77.github.io/Updated-Portfolio/
+Here is the link to the webpage: https://richardhamp.com
 
 # Build Tools
 HTML
