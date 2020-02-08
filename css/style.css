@@ -2,7 +2,7 @@
   width: 100%;
   box-sizing: border-box;
 }
-
+/* 
 .portfolio-image{
   width: 25%;
   position: absolute;
@@ -10,7 +10,8 @@
   left: 0px;
   animation-duration: 2s;
   animation-fill-mode: both;
-}
+  
+} */
 
 .testing{
   width: 25%;
@@ -99,12 +100,52 @@
 
 @keyframes slide{
   from{transform: translate(-100%)}
-  to{transform: translate(225%)}
+  to{transform: translate(75%)}
 }
 
 @keyframes slideback{
   from{transform: translate(400%)}
-  to{transform: translate(75%)}
+  to{transform: translate(225%)}
+}
+
+/* .fourth{
+  transition-timing-function: ease-in;
+  animation-name: pullaway1;
+  animation-duration: .5s;
+  top: 55.5%;
+  animation-delay: .5s;
+  z-index: 2;
+  border-top: 2px solid orange;
+} */
+
+@keyframes pullaway1{
+  from{transform: translate(400%)}
+  to{transform: translate(350%, -10%) rotateZ(2deg)}
+}
+
+@keyframes pullback1{
+  from{transform: translate(350%, -10%) rotateZ(2deg)}
+  to{transform: translate(400%)}
+}
+
+@keyframes pullaway2{
+  from{transform: translate(400%)}
+  to{transform: translate(300%, 15%) rotateZ(-5deg)}
+}
+
+@keyframes pullback2{
+  from{transform: translate(300%, 15%) rotateZ(-5deg)}
+  to{transform: translate(400%)}
+}
+
+@keyframes smash{
+  from{transform: translate(400%)}
+  to{transform: translate(194%, -7%) scale(0.9, 1.1)}
+}
+
+@keyframes smash2{
+from{transform: translate(194%, -7%) scale(0.9, 1.1)}
+to{transform: translate(194%, 2%) scale(0.9, 1.1) rotateZ(8deg)}
 }
 
 body {
@@ -200,6 +241,20 @@ li {
  object-fit: contain;
 }
 
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 .snaps {
  text-align: center;
  padding: 5px;
@@ -280,7 +335,10 @@ text-align: center;
 }
 
 #contact-block {
+  display: inline-block;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #myForm {
