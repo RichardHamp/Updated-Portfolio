@@ -461,4 +461,11 @@ margin-top: 5%;
     .text-responsive{
       font-size: small;
     }
+    .books-container {
+      display: flex;
+       }
+    .books {
+      width: 55%;
+      height: 80%;
+    }
   }
