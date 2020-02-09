@@ -63,7 +63,6 @@
   top: 18%;
   animation-name: slideback;
   z-index: 1;
-
 }
 
 .third{
@@ -439,6 +438,13 @@ margin-top: 5%;
     font-size: small;
   }
 
+  #contact-block {
+    display: inline-flex;
+   }
+   .centering {
+     text-align: center;
+   }
+
   @media only screen and (max-width: 1680px) {
     .split {
       height: 780px;
@@ -470,14 +476,47 @@ margin-top: 5%;
     .text-responsive{
       font-size: small;
     }
+    .footer-text {
+      font-size: x-small;
+    }
     .books-container {
       display: flex;
        }
     .books {
-      width: 55%;
+      width: 50%;
       height: 80%;
     }
     #rick-pic {
-      visibility: hidden;
+      /* visibility: hidden; */
+      opacity: 0;
+    }
+    .split {
+      height: 400px;
+    }
+    .testing {
+      margin-top: 0;
+      margin-bottom: 0;
+      width: 25%;
+    }
+    .git-link-portfolio {
+      font-size: x-small;
+    }
+    #contact-block {
+     display: inline-flex;
+    }
+    .centering {
+      text-align: center;
+    }
+    #submit1 {
+      width: 80px;
+      border-radius: 5px;
+    }
+    .button-responsive1 {
+      width: 100px;
+      border-radius: 5px;
+    }
+    .social-buttons {
+     position: absolute;
+     visibility: hidden;
     }
   }

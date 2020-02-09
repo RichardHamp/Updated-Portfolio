@@ -6,6 +6,7 @@ $("#home").show();
 
 //Navigation Buttons
 $(".homeButton").on("click", function () {
+  
   hideAll();
   $("#home").show();
 })
