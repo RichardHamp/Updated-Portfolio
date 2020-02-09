@@ -1,12 +1,12 @@
 // Hides all divs
 function hideAll() {
   $("#home, #contact, #portfolio, #about").hide();
+  $("#navbarCollapse").removeClass("show");
 } hideAll();
 $("#home").show();
 
 //Navigation Buttons
 $(".homeButton").on("click", function () {
-  
   hideAll();
   $("#home").show();
 })
