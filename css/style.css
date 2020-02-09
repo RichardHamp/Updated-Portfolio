@@ -40,8 +40,8 @@
   width: 50%;
   height: 1050px;
   border-left: thin solid orange;
-    margin-right: 0;
-    margin-left: 0;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .portfolio-git-link {
@@ -439,6 +439,15 @@ margin-top: 5%;
     font-size: small;
   }
 
+  @media only screen and (max-width: 1680px) {
+    .split {
+      height: 780px;
+    }
+    .wrapper-main {
+      background-color: green;
+      }
+  }
+
   @media only screen and (max-width: 767px) {
     .wrapper-main {
     background-color: red;
@@ -468,7 +477,7 @@ margin-top: 5%;
       width: 55%;
       height: 80%;
     }
-    #home {
-      max-height: 700px;
+    #rick-pic {
+      visibility: hidden;
     }
   }
