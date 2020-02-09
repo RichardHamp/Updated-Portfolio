@@ -1,6 +1,11 @@
 .wrapper-main {
   width: 100%;
   box-sizing: border-box;
+  overflow: hidden;
+}
+
+#footer {
+  overflow: hidden;
 }
 /* 
 .portfolio-image{
@@ -171,6 +176,7 @@ body {
   padding-right: 16px;
   border-bottom: 2px solid orange;
   box-shadow: 0 0 4px rgba(0,0,0,.1);
+  z-index: 2;
 }
 
 .nav-link img {
@@ -465,72 +471,145 @@ margin-top: 5%;
   }
 
   @media only screen and (max-width: 767px) {
+
     .wrapper-main {
-    background-color: red;
+    background-color: purple;
+    max-height: 2000px;
     }
+
     .text-container {
       background-color: blue;
       position: absolute;
     }
+
     .snaps {
       width: 15%;
       display: inline;
     }
+
     .header-responsive {
       font-size: medium;
       margin-bottom: 10px;
     }
+
     .intro-responsive{
       font-size: small;
     }
+
     .text-responsive{
       font-size: small;
     }
+
     .footer-text {
       font-size: x-small;
     }
+
     .books-container {
       display: flex;
        }
+
     .books {
       width: 50%;
       height: 80%;
     }
+
     .split {
-      height: 400px;
+      height: 290px;
     }
+
     .testing {
       margin-top: 0;
       margin-bottom: 0;
       width: 25%;
     }
+
     .git-link-portfolio {
       font-size: x-small;
     }
+
     #contact-block {
      display: inline-flex;
     }
+
     .centering {
       text-align: center;
     }
+
     #submit1 {
       width: 80px;
       border-radius: 5px;
     }
+
     .button-responsive1 {
       width: 100px;
       border-radius: 5px;
     }
+
     .social-buttons {
      position: absolute;
      visibility: hidden;
     }
+
     #rick-pic {
       object-fit: scale-down;
     }
+
     #stickMan {
      margin-top: 100px;
      margin-left: 30px;
      height: 60%;
     }
+
+    .first{
+      top: 24%;
+      animation-name: slide;
+      z-index: 0;
+    }
+    
+    .second{
+      top: 24%;
+      animation-name: slideback;
+      z-index: 1;
+    }
+    
+    .third{
+      animation-name: slide;
+      top: 42%;
+      animation-delay: .5s;
+      z-index: 0;
+      border-top: 2px solid orange;
+    }
+    
+    .fourth{
+      animation-name: slideback;
+      top: 42%;
+      animation-delay: .5s;
+      z-index: 1;
+      border-top: 2px solid orange;
+    }
+    
+    .fifth{
+      animation-name: slide;
+      top: 60%;
+      animation-delay: 1s;
+      z-index: 0;
+      border-top: 2px solid orange;
+    }
+    
+    .sixth{
+      animation-name: slideback;
+      top: 60%;
+      animation-delay: 1s;
+      z-index: 1;
+      border-top: 2px solid orange;
+    }
+
+    html, body {
+      max-height: 600px;
+    }
+  
+    /* .wrapper-main {
+      min-height: 100%;
+      margin-bottom: -50px;
+    } */
   }
