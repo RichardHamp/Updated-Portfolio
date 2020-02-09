@@ -465,20 +465,15 @@ margin-top: 5%;
     .split {
       height: 780px;
     }
-    .wrapper-main {
-      background-color: green;
-      }
   }
 
   @media only screen and (max-width: 767px) {
 
     .wrapper-main {
-    background-color: purple;
     max-height: 2000px;
     }
 
     .text-container {
-      background-color: blue;
       position: absolute;
     }
 
@@ -605,11 +600,11 @@ margin-top: 5%;
     }
 
     html, body {
-      max-height: 600px;
+      max-height: 620px;
     }
-  
-    /* .wrapper-main {
-      min-height: 100%;
-      margin-bottom: -50px;
-    } */
+
+    .button-responsive1 {
+      margin-bottom: 5px;
+      height: 25px;
+    }
   }
