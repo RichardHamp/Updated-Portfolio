@@ -438,3 +438,25 @@ margin-top: 5%;
   .small {
     font-size: small;
   }
+
+  @media only screen and (max-width: 767px) {
+  
+    .text-container {
+      background-color: blue;
+      position: absolute;
+    }
+    .snaps {
+      width: 15%;
+      display: inline;
+    }
+    .header-responsive {
+      font-size: medium;
+      margin-bottom: 10px;
+    }
+    .intro-responsive{
+      font-size: small;
+    }
+    .text-responsive{
+      font-size: small;
+    }
+  }
