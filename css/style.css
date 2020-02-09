@@ -104,12 +104,12 @@
 
 @keyframes slide{
   from{transform: translate(-100%)}
-  to{transform: translate(75%)}
+  to{transform: translate(225%)}
 }
 
 @keyframes slideback{
   from{transform: translate(400%)}
-  to{transform: translate(225%)}
+  to{transform: translate(75%)}
 }
 
 /* .fourth{
@@ -600,7 +600,7 @@ margin-top: 5%;
     }
 
     html, body {
-      max-height: 620px;
+      max-height: 650px;
     }
 
     .button-responsive1 {
