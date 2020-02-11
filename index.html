@@ -26,10 +26,10 @@
             <!-- Navigation Buttons -->
             <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
                 <ul class="nav navbar-nav">
-                    <li class="nav-item"><a href="#" class="nav-link homeButton med">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link aboutButton med">Non-Coding</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link portfolioButton med">Portfolio</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link contactButton med">Contact</a></li>
+                    <li class="nav-item nav-button"><a href="#" class="nav-link homeButton med">Home</a></li>
+                    <li class="nav-item nav-button"><a href="#" class="nav-link aboutButton med">Non-Coding</a></li>
+                    <li class="nav-item nav-button"><a href="#" class="nav-link portfolioButton med">Portfolio</a></li>
+                    <li class="nav-item nav-button"><a href="#" class="nav-link contactButton med">Contact</a></li>
                 </ul>
                 <!-- Social Media Links -->
                 <div class="social-buttons">
@@ -119,24 +119,24 @@
                         <h2 class="header-responsive">Part Front-End Coder</h2>
                         <br>
                         <ul class="ul">
-                            <li>HTML/CSS</li>
-                            <li>JavaScript</li>
-                            <li>Swearing Because My Code Worked a Minute Ago</li>
-                            <li>jQuery</li>
-                            <li>Copy/Pasting Code and Calling it Mine</li>
+                            <li class="tech-known">HTML/CSS</li>
+                            <li class="tech-known">JavaScript</li>
+                            <li class="tech-known">Swearing Because My Code Worked a Minute Ago</li>
+                            <li class="tech-known">jQuery</li>
+                            <li class="tech-known">Copy/Pasting Code and Calling it Mine</li>
                         </ul>
                     </div>
                     <img id="chart" class="col-4" src="assets/images/graph.png"
                         alt="part Front end developer, part back end developer">
-                    <div class="part col-4">
+                    <div class="part col-4" id="back-end">
                         <h2 class="header-responsive">Part Back-End Coder</h2>
                         <br>
                         <ul class="ul">
-                            <li>Database Structures (MySql and Mongo)</li>
-                            <li>JSON</li>
-                            <li>Eating Sushi</li>
-                            <li>Swearing For the Same Reason as Front-End</li>
-                            <li>Node and Express</li>
+                            <li class="tech-known">Database Structures (MySql and Mongo)</li>
+                            <li class="tech-known">JSON</li>
+                            <li class="tech-known">Eating Sushi</li>
+                            <li class="tech-known">Swearing For the Same Reason as Front-End</li>
+                            <li class="tech-known">Node and Express</li>
                         </ul>
                     </div>
                 </div>
@@ -322,14 +322,14 @@
                 <ul id="contact-block" class="row">
 
                     <!-- Social Media Links -->
-                    <li class="contact-item"><a href="https://www.facebook.com/AMillionWritingMonkeys/" target="blank"
-                            class="nav-link"><i class="fa fa-facebook"></i></a></li>
-                    <li class="contact-item"><a href="https://twitter.com/RichardHamp" target="blank"
-                            class="nav-link"><i class="fa fa-twitter"></i></a></li>
-                    <li class="contact-item"><a href="https://github.com/richardhamp" target="blank" class="nav-link"><i
-                                class="fa fa-github"></i></a></li>
-                    <li class="contact-item"><a href="https://www.linkedin.com/in/fozzie-77-hamp-36050178/"
-                            target="blank" class="nav-link"><i class="fa fa-linkedin"></i></a></li>
+                    <li class="nav-item"><a href="https://www.facebook.com/AMillionWritingMonkeys/" target="blank"
+                            class="nav-link"><i class="contact-item fa fa-facebook"></i></a></li>
+                    <li class="nav-item"><a href="https://twitter.com/RichardHamp" target="blank"
+                            class="nav-link"><i class="contact-item fa fa-twitter"></i></a></li>
+                    <li class="nav-item"><a href="https://github.com/richardhamp" target="blank" class="nav-link"><i
+                                class="contact-item fa fa-github"></i></a></li>
+                    <li class="nav-item"><a href="https://www.linkedin.com/in/fozzie-77-hamp-36050178/"
+                            target="blank" class="nav-link"><i class="contact-item fa fa-linkedin"></i></a></li>
 
                 </ul>
             </div>
@@ -350,7 +350,7 @@
                     <div class="input-field col s12">
                         <label for="" class="inputLine">address for interwebs goes here</label>
                         <br>
-                        <input type="email" class="validate" id="emailInput" placeholder="tinkerer@kickin.com">
+                        <input type="email" class="validate" id="emailInput" placeholder="tink@cool.com">
                     </div>
                     <br>
                     <div class="input-field col s12">
