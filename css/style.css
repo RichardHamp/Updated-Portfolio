@@ -165,7 +165,7 @@ body {
   padding: 0 !important;
 }	
 
-.nav-link, .navbar-nav, .nav {
+.nav-button, .navbar-nav, .nav {
   color: black;
   font-size: small;
 }
@@ -179,14 +179,14 @@ body {
   z-index: 2;
 }
 
-.nav-link img {
+/* .nav-link img {
   border-radius: 50%;
   width: 36px;
   height: 36px;
   margin: -8px 0;
   float: left;
   margin-right: 10px;
-}
+} */
 
 .navbar .navbar-brand {
   color: whitesmoke;
@@ -320,6 +320,10 @@ background: rgb(240, 240, 235);
 border-top: 3px solid rgb(216, 216, 216)
 }
 
+.tech-known {
+  list-style-type: disc;
+}
+
 #snapsbox {
 text-align: center;
 }
@@ -349,6 +353,7 @@ text-align: center;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  display: inline-flex;
 }
 
 #myForm {
@@ -362,10 +367,10 @@ text-align: center;
 
 .contact-item {
   background: orange;
-  margin: 10px;
-  border-radius: 5px;
-  height: 40px;
-  width: 40px;
+  padding: 10px;
+  outline-width: 2px;
+  outline-color: black;
+  outline-style: solid;
 }
 
 h2 {
@@ -449,16 +454,12 @@ margin-top: 5%;
     font-size: small;
   }
 
-  #contact-block {
-    display: inline-flex;
-   }
-
   .centering {
      text-align: center;
    }
 
 .navbar {
-  max-height: 230px;
+  max-height: 280px;
 }
 
   @media only screen and (max-width: 1680px) {
@@ -467,7 +468,10 @@ margin-top: 5%;
     }
   }
 
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 768px) {
+    /* body {
+      background: blue;
+    } */
 
     .wrapper-main {
     max-height: 2000px;
@@ -522,10 +526,6 @@ margin-top: 5%;
       font-size: x-small;
     }
 
-    #contact-block {
-     display: inline-flex;
-    }
-
     .centering {
       text-align: center;
     }
@@ -546,13 +546,14 @@ margin-top: 5%;
     }
 
     #rick-pic {
-      object-fit: scale-down;
+      max-height: 500px;
     }
 
     #stickMan {
-     margin-top: 100px;
-     margin-left: 30px;
-     height: 60%;
+     margin-top: 70px;
+     margin-left: -20px;
+     width: 200%;
+    height: auto;
     }
 
     .first{
@@ -607,4 +608,30 @@ margin-top: 5%;
       margin-bottom: 5px;
       height: 25px;
     }
+
+    .tech-known {
+      font-size: x-small;
+    }
+
+    #front-end {
+      margin-left: 0px;
+    }
+    
+    .inputLine, .validate {
+      font-size: small;
+    }
+
+    #coder {
+max-height: 350px;
+    }
+
+    #front-end {
+      max-width: 142px;
+      margin-left: 10px;
+    }
+
+    #back-end {
+      max-width: 142px;
+    }
+    
   }
