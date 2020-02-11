@@ -86,6 +86,16 @@
   border-top: 2px solid orange;
 }
 
+/* .fourth{
+  transition-timing-function: ease-in;
+  animation-name: pullaway1;
+  animation-duration: .5s;
+  top: 55.5%;
+  animation-delay: .5s;
+  z-index: 2;
+  border-top: 2px solid orange;
+} */
+
 .fifth{
   animation-name: slide;
   top: 93%;
@@ -111,16 +121,6 @@
   from{transform: translate(400%)}
   to{transform: translate(75%)}
 }
-
-/* .fourth{
-  transition-timing-function: ease-in;
-  animation-name: pullaway1;
-  animation-duration: .5s;
-  top: 55.5%;
-  animation-delay: .5s;
-  z-index: 2;
-  border-top: 2px solid orange;
-} */
 
 @keyframes pullaway1{
   from{transform: translate(400%)}
